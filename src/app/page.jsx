@@ -1,11 +1,6 @@
-const name = "HM"
+const name = "HM";
 const string = `Her name is ${name}`;
 const Home = () => {
-  return (
-    <main>
-      <h1 className="text-3xl font-bold underline">Home</h1>
-      <p>{string}</p>
-    </main>
-  );
+  return <div>Hello</div>;
 };
 export default Home;
