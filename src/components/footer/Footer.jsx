@@ -1,7 +1,13 @@
+import styles from "./footer.module.css";
 const Footer = () => {
-    return (
-        <h2>This is the footer</h2>
-    );
-}
+  return (
+    <div className={styles.container}>
+      <div className={styles.logo}>lamadev</div>
+      <div className={styles.text}>
+        Lama creative thoughts agency © All rights reserved.{" "}
+      </div>
+    </div>
+  );
+};
 
 export default Footer;
