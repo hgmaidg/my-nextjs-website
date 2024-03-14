@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import NavLink from "./navLinks/navLinks";
+import NavLink from "./navLinks/navLink";
 import styles from "./links.module.css";
 const Links = () => {
   const [open, setOpen] = useState(false);
